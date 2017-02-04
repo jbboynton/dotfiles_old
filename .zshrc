@@ -15,11 +15,6 @@ source $HOME/dotfiles/zsh/functions
 source $HOME/dotfiles/zsh/prompt
 source $HOME/dotfiles/zsh/completion
 
-# Stop aliasing stuff and then immediately forgetting to use the alias. If
-# needed, alias the original command here but print "Stop it! Use <alias>" to
-# remind myself.
-source $HOME/dotfiles/stop_it
-
 # Configure rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
